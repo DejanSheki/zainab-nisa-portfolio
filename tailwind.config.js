@@ -46,7 +46,7 @@ export default {
         'orange': 'rgba(255, 87, 87, 1)'
       },
       backgroundImage: {
-        'bg': 'url("/bg-dot.png")'
+        'bg': 'url("./src/assets/bg-dot.png")'
       }
     },
   },
