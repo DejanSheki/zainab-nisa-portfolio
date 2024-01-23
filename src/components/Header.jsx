@@ -21,11 +21,11 @@ const Header = () => {
             </div>
             <div className='flex justify-between gap-52 px-2'>
                 <div className='w-1/2'>
-                    <h1 className='font-inter font-semibold text-[4rem] text-black-200'>I <span>design</span> top <br /> notch websites</h1>
+                    <h1 className='font-inter font-semibold text-[4rem] text-black-200 leading-normal'>I <span className='bg-gradient-to-t from-pink-100 from-30% to-transparent to-30% bg-[center_-6px]'>design</span> top <br /> notch websites</h1>
                 </div>
-                <div className='w-1/2'>
-                    <p className='font-inter font-normal text-2xl text-black-200 leading-8'>I'll design your website and will develop to land it on internet using No-code.</p>
-                    <button>Hire me</button>
+                <div className='w-1/2 pt-2'>
+                    <p className='font-inter font-normal text-2xl text-black-200 leading-8 text-justify'>I'll design your website and will develop to land it on internet using No-code.</p>
+                    <button className='bg-black-200 shadow-[3px_3px_12px_0px_rgba(0,0,0,0.12)] py-[1.125rem] px-[3.625rem] mt-8 text-white font-inter text-2xl font-semibold hover:shadow-[0px_0px_0px_4px_rgba(255,_201,_240,_1)] hover:text-pink-100'>Hire me</button>
                 </div>
             </div>
         </header>
