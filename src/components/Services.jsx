@@ -5,7 +5,7 @@ import rhombus from '../assets/rhombus.svg';
 
 const Services = () => {
     return (
-        <section className='pb-36'>
+        <section className='mb-36'>
             <div className='pt-[6.875rem] pl-14'>
                 <h2 className='font-handlee text-black-200 leading-normal font-semibold text-[2rem] w-max bg-pink-100'>What I do?</h2>
                 <img className='mt-[0.88rem]' src={arrowwDown} alt="arrow" />
