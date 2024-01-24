@@ -10,10 +10,10 @@ import cursorGreen from '../assets/cursor-green.svg';
 
 const Projects = () => {
     return (
-        <section className='grid grid-flow-row grid-cols-[25%_repeat(2,minmax(33%,_1fr))] gap-8 px-3 pb-36'>
-            <div className='row-span-4 col-span-1 flex flex-col w-64 mt-[7.5rem]'>
+        <section className='grid grid-flow-row grid-cols-[16rem_repeat(2,minmax(33%,_1fr))] gap-8 px-3 pb-36'>
+            <div className='row-span-4 col-span-1 flex flex-col mt-[7.5rem] mb-36'>
                 <h2 className='text-black-200 font-handlee text-[2rem] leading-normal font-semibold bg-pink-100 w-max'>Featured Projects</h2>
-                <div className='inline-flex justify-end my-6'><img src={arrowDownRight} alt="arrow" /></div>
+                <div className='inline-flex justify-end my-6 pr-4'><img src={arrowDownRight} alt="arrow" /></div>
                 <p className='text-black-200 font-inter text-2xl font-normal leading-8'>Have designed more than 20 projects</p>
             </div>
             <div className='row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[3px] rounded-md px-5 pt-5'>
