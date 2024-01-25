@@ -1,13 +1,19 @@
-```
-const plugin = require('tailwindcss/plugin')
+# Zainab Nisa Portfolio
+
+Figma to React practicing
+
+### Something interesting
+
+```javascript
+const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   theme: {
     extend: {
       textShadow: {
-        sm: '0 1px 2px var(--tw-shadow-color)',
-        DEFAULT: '0 2px 4px var(--tw-shadow-color)',
-        lg: '0 8px 16px var(--tw-shadow-color)',
+        sm: "0 1px 2px var(--tw-shadow-color)",
+        DEFAULT: "0 2px 4px var(--tw-shadow-color)",
+        lg: "0 8px 16px var(--tw-shadow-color)",
       },
     },
   },
@@ -15,16 +21,13 @@ module.exports = {
     plugin(function ({ matchUtilities, theme }) {
       matchUtilities(
         {
-          'text-shadow': (value) => ({
+          "text-shadow": (value) => ({
             textShadow: value,
           }),
         },
-        { values: theme('textShadow') }
-      )
+        { values: theme("textShadow") },
+      );
     }),
   ],
-}
-
-
-
+};
 ```

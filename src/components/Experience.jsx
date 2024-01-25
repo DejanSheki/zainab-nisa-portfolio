@@ -50,7 +50,7 @@ const Experience = () => {
                 </div>
                 <div className='w-[113%] h-[2px] bg-black-100 -ml-[7.33%]'></div>
             </div>
-            <h1 className='drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>text Bezveze</h1>
+            <h1 className='text-shadow shadow-red-700 h-max'>text Bezveze</h1>
         </section>
     )
 };

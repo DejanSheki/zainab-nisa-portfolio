@@ -1,4 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+
+/*eslint-env node*/
+
+const plugin = require('tailwindcss/plugin');
+
 export default {
   content: [
     './index.html',
@@ -47,9 +52,26 @@ export default {
       },
       backgroundImage: {
         'bg': 'url("./src/assets/bg-dot.svg")'
-      }
+      },
+      textShadow: {
+        sm: "0 10px 20px red",
+        DEFAULT: "0px 0px 20px var(--tw-shadow-color)",
+        lg: "0 8px 16px var(--tw-shadow-color)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          "text-shadow": (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme("textShadow") },
+      );
+    }),
+  ]
 }
 
