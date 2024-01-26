@@ -58,6 +58,9 @@ export default {
         lg: "1px 1px 0.5px var(--tw-shadow-color)"
       },
     },
+    screens: {
+      '2xl': '1440px',
+    }
   },
   plugins: [
 

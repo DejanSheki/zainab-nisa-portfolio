@@ -11,8 +11,8 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <main className='max-w-[90rem] bg-white m-auto px-[7.63rem]'>
-      <div className='bg-bg bg-repeat bg-[length:5.999999865889549px_5.999999865889549px] border-l-[3px] border-black-100'>
+    <main className='max-w-[90rem] bg-white m-auto px-6 2xl:px-[7.63rem]'>
+      <div className='bg-bg bg-repeat bg-[length:5.999999865889549px_5.999999865889549px] border-l-[1.5px] 2xl:border-l-[3px] border-black-100'>
         <Navbar />
         <Header />
         <Services />
