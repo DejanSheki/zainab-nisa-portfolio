@@ -54,9 +54,8 @@ export default {
         'bg': 'url("./src/assets/bg-dot.svg")'
       },
       textShadow: {
-        sm: "0 10px 20px red",
-        DEFAULT: "0px 0px 20px var(--tw-shadow-color)",
-        lg: "0 8px 16px var(--tw-shadow-color)",
+        DEFAULT: "0px 0px 0.5px var(--tw-shadow-color)",
+        lg: "1px 1px 0.5px var(--tw-shadow-color)"
       },
     },
   },

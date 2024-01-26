@@ -10,9 +10,9 @@ import cursorGreen from '../assets/cursor-green.svg';
 
 const Projects = () => {
     return (
-        <section className='grid grid-flow-row grid-cols-[16rem_repeat(2,minmax(33%,_1fr))] gap-8 px-3 pb-36'>
+        <section className='grid grid-flow-row grid-cols-[16rem_repeat(2,minmax(33%,_1fr))] gap-8 px-3 mb-36'>
             <div className='row-span-4 col-span-1 flex flex-col mt-[7.5rem] mb-36'>
-                <h2 className='text-black-200 font-handlee text-[2rem] leading-normal font-semibold bg-pink-100 w-max'>Featured Projects</h2>
+                <h2 className='text-black-200 font-handlee text-shadow shadow-black-200 text-[2rem] leading-normal font-semibold bg-pink-100 w-max'>Featured Projects</h2>
                 <div className='inline-flex justify-end my-6 pr-4'><img src={arrowDownRight} alt="arrow" /></div>
                 <p className='text-black-200 font-inter text-2xl font-normal leading-8'>Have designed more than 20 projects</p>
             </div>
@@ -21,7 +21,7 @@ const Projects = () => {
                     <img src={noCode} alt="No-code" />
                 </div>
                 <div className='flex gap-9 pb-7 mt-11'>
-                    <h3 className='text-black-200 font-semibold font-handlee text-[1.75rem] leading-7 flex-1'>4 style Portfolio design</h3>
+                    <h3 className='text-black-200 font-semibold text-shadow shadow-black-200 font-handlee text-[1.75rem] leading-7 flex-1'>4 style Portfolio design</h3>
                     <div className='relative'>
                         <img className='absolute -top-6 -left-5' src={cursorPink} alt="cursor icon" />
                         <button className='flex py-[0.55944rem] pr-[1.3985rem] pl-[1.11881rem] rounded-[0.13988rem_1.67825rem_1.67825rem_1.67825rem] border-[2.238px] border-solid border-pink-500 bg-pink-200 shadow-[4.475px_4.475px_11.188px_0px_rgba(247,144,9,0.16)] text-white font-inter text-lg font-medium leading-[1.678rem]'>No-Code</button>
@@ -34,7 +34,7 @@ const Projects = () => {
                     <img src={uiDesign} alt="UI-design" />
                 </div>
                 <div className='flex gap-9 pb-7 mt-11'>
-                    <h3 className='text-black-200 font-semibold font-handlee text-[1.75rem] leading-7 flex-1'>Color system for app</h3>
+                    <h3 className='text-black-200 font-semibold text-shadow shadow-black-200 font-handlee text-[1.75rem] leading-7 flex-1'>Color system for app</h3>
                     <div className='relative'>
                         <img className='absolute -top-6 -left-5' src={cursorBlue} alt="cursor icon" />
                         <button className='flex py-[0.55944rem] pr-[1.3985rem] pl-[1.11881rem] rounded-[0.13988rem_1.67825rem_1.67825rem_1.67825rem] border-[2.238px] border-solid border-blue-500 bg-blue-300 shadow-[4.475px_4.475px_11.188px_0px_rgba(9,33,247,0.16)] text-white font-inter text-lg font-medium leading-[1.678rem]'>UI Design</button>
@@ -47,7 +47,7 @@ const Projects = () => {
                     <img src={uxDesin} alt="UX-design" />
                 </div>
                 <div className='flex gap-9 pb-7 mt-11'>
-                    <h3 className='text-black-200 font-semibold font-handlee text-[1.75rem] leading-7 flex-1'>Onboarding screen process</h3>
+                    <h3 className='text-black-200 font-semibold text-shadow shadow-black-200 font-handlee text-[1.75rem] leading-7 flex-1'>Onboarding screen process</h3>
                     <div className='relative'>
                         <img className='absolute -top-6 -left-5' src={cursorYellow} alt="cursor icon" />
                         <button className='flex py-[0.55944rem] pr-[1.3985rem] pl-[1.11881rem] rounded-[0.13988rem_1.67825rem_1.67825rem_1.67825rem] border-[2.238px] border-solid border-yellow-400 bg-yellow-200 shadow-[4.475px_4.475px_11.188px_0px_rgba(229,193,65,0.16)] text-white font-inter text-lg font-medium leading-[1.678rem]'>UX Design</button>
@@ -60,7 +60,7 @@ const Projects = () => {
                     <img src={uxDesinApp} alt="UX-desin" />
                 </div>
                 <div className='flex gap-9 pb-7 mt-11'>
-                    <h3 className='text-black-200 font-semibold font-handlee text-[1.75rem] leading-7 flex-1'>Finance Landing page</h3>
+                    <h3 className='text-black-200 font-semibold text-shadow shadow-black-200 font-handlee text-[1.75rem] leading-7 flex-1'>Finance Landing page</h3>
                     <div className='relative'>
                         <img className='absolute -top-6 -left-5' src={cursorGreen} alt="cursor icon" />
                         <button className='flex py-[0.55944rem] pr-[1.3985rem] pl-[1.11881rem] rounded-[0.13988rem_1.67825rem_1.67825rem_1.67825rem] border-[2.238px] border-solid border-green bg-lihgt-green shadow-[4.475px_4.475px_11.188px_0px_rgba(9,33,247,0.16)] text-white font-inter text-lg font-medium leading-[1.678rem]'>UI Design</button>
@@ -68,7 +68,7 @@ const Projects = () => {
                 </div>
             </div>
         </section>
-    )
+    );
 };
 
 export default Projects;
