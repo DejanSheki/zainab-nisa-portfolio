@@ -5,8 +5,8 @@ import arrow from "../assets/arrow.svg";
 
 const Header = () => {
   return (
-    <header className="flex flex-col pt-16 gap-6">
-      <div className="flex p-[0.24944rem_2.11925rem_0.30131rem_0.363rem] items-center">
+    <header className="flex flex-col pt-20 gap-6">
+      <div className="flex p-[0.24944rem_2.11925rem_0.30131rem_0.563rem] items-center">
         <div className="flex items-center gap-4 -rotate-[5.2deg]">
           <div className="relative">
             <img src={ilustration} alt="ilustration" />
@@ -26,7 +26,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between gap-52 px-2">
+      <div className="flex justify-between gap-52 px-3">
         <div className="w-1/2">
           <h1 className="font-inter font-semibold text-[4rem] text-black-200 leading-normal">
             I{" "}

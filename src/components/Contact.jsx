@@ -2,7 +2,7 @@ import arrow from '../assets/arrow-down-right.svg';
 
 const Contact = () => {
     return (
-        <sectio>
+        <section>
             <div className='flex gap-52 pl-14 pr-10 mb-36'>
                 <div className='flex flex-col gap-6 w-1/4 pt-[1.8rem]'>
                     <h2 className='text-black-200 text-shadow shadow-black-200 font-handlee text-[2rem] font-semibold w-max bg-pink-100'>Contact here</h2>
@@ -51,8 +51,8 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <div className='h-[3px] bg-black-100 min-w-[1440px] '></div>
-        </sectio>
+            <div className='h-[3px] bg-black-100 min-w-[1440px] relative -left-[7.8175rem]'></div>
+        </section>
     );
 };
 
