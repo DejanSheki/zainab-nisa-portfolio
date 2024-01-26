@@ -5,8 +5,8 @@ import arrow from "../assets/arrow.svg";
 
 const Header = () => {
   return (
-    <header className="flex flex-col pt-[4.7rem] 2xl:pt-20 gap-8 2xl:gap-[1.77rem]">
-      <div className="flex p-[0.24944rem_2.11925rem_0.30131rem_0.663rem] items-center">
+    <header className="flex flex-col pt-[4.7rem] 2xl:pt-20 gap-8 2xl:gap-[1.77rem] px-[1.19rem] 2xl:px-0">
+      <div className="flex  items-center">
         <div className="flex items-center gap-1 2xl:gap-4 -rotate-3 2xl:-rotate-[5.2deg]">
           <div className="relative">
             <img src={ilustration} alt="ilustration" />
@@ -26,7 +26,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="flex 2xl:flex-row flex-col 2xl:justify-between gap-4 2xl:gap-52 px-3">
+      <div className="flex 2xl:flex-row flex-col 2xl:justify-between gap-4 2xl:gap-52 2xl:px-3">
         <div className="w-full 2xl:w-1/2">
           <h1 className="font-inter font-semibold text-[2rem] 2xl:text-[4rem] text-black-200 ">
             I

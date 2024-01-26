@@ -2,7 +2,7 @@ import vector from "../assets/vector.svg";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent flex justify-center gap-20 pl-[1.19rem] pr-[0.45rem] 2xl:justify-end items-center pt-12">
+    <nav className="bg-transparent flex justify-between gap-10 pl-[1.19rem] pr-[0.45rem] 2xl:justify-end items-center pt-12">
       <div className="inline-flex items-center gap-2 2xl:mr-40">
         <img className="w-[1.68rem] 2xl:w-12" src={vector} alt="vector" />
         <strong className="font-handlee font-bold 2xl:font-normal leading-normal text-2xl 2xl:text-4xl text-black-200">
