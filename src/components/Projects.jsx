@@ -10,7 +10,7 @@ import cursorGreen from "../assets/cursor-green.svg";
 
 const Projects = () => {
   return (
-    <section className="grid grid-flow-row grid-cols-1 2xl:grid-cols-[16rem_repeat(2,minmax(33%,_1fr))] gap-8 px-3 mb-[4.69rem] 2xl:mb-36">
+    <section className="grid grid-flow-row grid-cols-1 md:grid-cols-[16rem_repeat(2,minmax(33%,_1fr))] gap-8 px-3 mb-[4.69rem] 2xl:mb-36">
       <div className="row-span-4 col-span-1 flex flex-col  2xl:mt-[7.5rem] bottom-8 2xl:mb-36">
         <h2 className="text-black-200 font-handlee text-shadow shadow-black-200 text-xl 2xl:text-[2rem] leading-normal font-semibold bg-pink-100 w-max">
           Featured Projects
@@ -22,7 +22,7 @@ const Projects = () => {
           Have designed more than 20 projects
         </p>
       </div>
-      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
+      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[1.7px] 2xl:border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
         <div>
           <img src={noCode} alt="No-code" />
         </div>
@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
+      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[1.7px] 2xl:border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
         <div>
           <img src={uiDesign} alt="UI-design" />
         </div>
@@ -62,7 +62,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
+      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[1.7px] 2xl:border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
         <div>
           <img src={uxDesin} alt="UX-design" />
         </div>
@@ -82,7 +82,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
+      <div className="row-span-2 col-span-1 flex flex-col bg-white border-solid border-black-100 border-[1.7px] 2xl:border-[3px] rounded-md px-4 2xl:px-5 pt-4 2xl:pt-5">
         <div>
           <img src={uxDesinApp} alt="UX-desin" />
         </div>
