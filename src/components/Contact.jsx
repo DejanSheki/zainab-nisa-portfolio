@@ -27,7 +27,7 @@ const Contact = () => {
                   Name
                 </span>
                 <input
-                  className="bg-transparent w-full border-b-2 border-black-100 pl-[1.8rem] mb-[2px] placeholder:text-black-200  font-handlee text-[0.93rem] 2xl:text-[1.75rem] font-normal leading-[140%] pt-[2px]"
+                  className="bg-transparent w-full border-b-2 border-black-100 pl-3 2xl:pl-[1.8rem] mb-[2px] placeholder:text-black-200  font-handlee text-[0.93rem] 2xl:text-[1.75rem] font-normal leading-[140%] pt-[2px]"
                   type="text"
                   name="name"
                   placeholder="Zainab Nisa"
@@ -38,7 +38,7 @@ const Contact = () => {
                   Your email
                 </span>
                 <input
-                  className="bg-transparent flex-[1_1_0] w-full border-b-2 border-black-100 pl-[1.8rem] mb-[2px] placeholder:text-black-200 font-handlee text-[0.93rem] 2xl:text-[1.75rem] font-normal leading-[140%] pt-[2px]"
+                  className="bg-transparent flex-[1_1_0] w-full border-b-2 border-black-100 pl-3 2xl:pl-[1.8rem] mb-[2px] placeholder:text-black-200 font-handlee text-[0.93rem] 2xl:text-[1.75rem] font-normal leading-[140%] pt-[2px]"
                   type="email"
                   name="email"
                   placeholder="zainab123@gmail.com"
@@ -49,7 +49,7 @@ const Contact = () => {
                   About Project
                 </span>
                 <textarea
-                  className="bg-transparent w-full flex-[1_1_0] h-[2.7rem] border-b-2 border-black-100 pl-[1.8rem] mb-[2px] placeholder:text-black-200 font-handlee text-[0.93rem] 2xl:text-[1.75rem] font-normal leading-[140%] pt-[2px] resize-none hover:resize "
+                  className="bg-transparent w-full flex-[1_1_0] h-[2.7rem] border-b-2 border-black-100 pl-3 2xl:pl-[1.8rem] mb-[2px] placeholder:text-black-200 font-handlee text-[0.93rem] 2xl:text-[1.75rem] font-normal leading-[140%] pt-[2px] resize-none hover:resize "
                   name="message"
                   id=""
                   cols="30"
@@ -58,7 +58,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="flex justify-start 2xl:justify-end">
-                <button className="rotate-[1.287deg] py-2 2xl:py-5 px-5 2xl:px-[2.5625rem] bg-black-200 shadow-[3px_3px_12px_0px_rgba(0,0,0,0.12)] text-white font-inter text-2xl font-semibold leading-[2.1rem]">
+                <button className="rotate-[1.287deg] py-2 2xl:py-5 px-5 2xl:px-[2.5625rem] bg-black-200 shadow-[3px_3px_12px_0px_rgba(0,0,0,0.12)] text-white font-inter text-base 2xl:text-2xl font-semibold leading-[140%]">
                   Send Here
                 </button>
               </div>
@@ -66,7 +66,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="h-[3px] bg-black-100 min-w-[1440px] relative -left-[7.8175rem]"></div>
+      <div className="h-[1.5px] 2xl:h-[3px] bg-black-100 min-w-[1440px] relative -left-[7.8175rem]"></div>
     </section>
   );
 };
