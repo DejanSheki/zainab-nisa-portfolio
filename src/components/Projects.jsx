@@ -10,9 +10,9 @@ import cursorGreen from "../assets/cursor-green.svg";
 
 const Projects = () => {
   return (
-    <section className="grid grid-flow-row grid-cols-1 md:grid-cols-[16rem_repeat(2,minmax(33%,_1fr))] gap-8 px-3 mb-[4.69rem] 2xl:mb-36">
-      <div className="row-span-4 col-span-1 flex flex-col  2xl:mt-[7.5rem] bottom-8 2xl:mb-36">
-        <h2 className="text-black-200 font-handlee text-shadow shadow-black-200 text-xl 2xl:text-[2rem] leading-normal font-semibold bg-pink-100 w-max">
+    <section className="grid grid-flow-row grid-cols-1 md:grid-cols-[12rem_repeat(2,minmax(33%,_1fr))] 2xl:grid-cols-[16rem_repeat(2,minmax(33%,_1fr))] gap-5 2xl:gap-8 px-3 mb-[4.69rem] 2xl:mb-36">
+      <div className="row-span-4 col-span-1 flex flex-col 2xl:mt-[7.5rem] 2xl:mb-36">
+        <h2 className="text-black-200 font-handlee text-shadow shadow-black-200 text-xl md:text-2xl 2xl:text-[2rem] leading-normal font-semibold bg-pink-100 w-max">
           Featured Projects
         </h2>
         <div className="inline-flex justify-start 2xl:justify-end my-4 2xl:my-6 pr-4">
