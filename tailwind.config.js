@@ -51,7 +51,7 @@ export default {
         'orange': 'rgba(255, 87, 87, 1)'
       },
       backgroundImage: {
-        'bg': 'url("./src/assets/bg-dot.svg")'
+        'bg': 'url("/images/bg-dot.svg")'
       },
       textShadow: {
         DEFAULT: "0px 0px 0.5px var(--tw-shadow-color)",
